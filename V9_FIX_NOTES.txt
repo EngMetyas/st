@@ -1,0 +1,4 @@
+Login fix:
+The login flow now stores the Supabase access token before requesting the user's profile, so the profile REST request carries Authorization: Bearer <access_token> and works with RLS.
+If the profile is missing, the temporary token is cleared again.
+No Supabase SQL migration is required for this specific fix.

@@ -1,0 +1,22 @@
+V11 PROFESSIONAL UI UPDATE
+
+Changes:
+- Full visual refresh with a professional Coptic/green/gold design.
+- Responsive mobile layout with slide-out sidebar and bottom navigation.
+- Mobile-safe tables, forms, modals, chat, services and gallery.
+- Search icon now opens an in-app quick navigation search.
+- Bell icon now opens a notifications shortcut panel.
+- Settings icon now opens working UI settings.
+- Added compact interface setting stored in localStorage.
+- Added mobile settings/menu controls.
+- Sector pages now have quick actions for Members, Attendance, Spiritual Content, Services and Sector Chat.
+- Kept existing Supabase data model and account/role logic.
+- Kept servant-to-class same-sector assignment restrictions.
+
+Deployment:
+1. Replace the project files in GitHub with this version.
+2. Keep the existing Vercel environment variables.
+3. Redeploy in Vercel.
+4. Test desktop and mobile.
+
+Note: Build dependencies are installed by Vercel during deployment; local node_modules are intentionally excluded from the archive.
